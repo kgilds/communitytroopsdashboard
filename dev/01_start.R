@@ -20,12 +20,12 @@
 ##
 golem::fill_desc(
   pkg_name = "communitytroopsdashboard", # The name of the golem package containing the app (typically lowercase, no underscore or periods)
-  pkg_title = "PKG_TITLE", # What the Package Does (One Line, Title Case, No Period)
-  pkg_description = "PKG_DESC.", # What the package does (one paragraph).
+  pkg_title = "Community Troop Dashboard", # What the Package Does (One Line, Title Case, No Period)
+  pkg_description = "Process Survey Data, Analayze Survey Data, Report Survey Data.", # What the package does (one paragraph).
   authors = person(
-    given = "AUTHOR_FIRST", # Your First Name
-    family = "AUTHOR_LAST", # Your Last Name
-    email = "AUTHOR@MAIL.COM", # Your email
+    given = "Kevin", # Your First Name
+    family = "Gilds", # Your Last Name
+    email = "KevinGilds@GMAIL.COM", # Your email
     role = c("aut", "cre") # Your role (here author/creator)
   ),
   repo_url = NULL, # The URL of the GitHub repo (optional),
@@ -61,7 +61,6 @@ golem::use_utils_ui(with_test = TRUE)
 golem::use_utils_server(with_test = TRUE)
 
 ## Use git ----
-usethis::use_git()
 ## Sets the remote associated with 'name' to 'url'
 usethis::use_git_remote(
   name = "origin",
