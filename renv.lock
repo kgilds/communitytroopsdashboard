@@ -511,23 +511,29 @@
     },
     "commonmark": {
       "Package": "commonmark",
-      "Version": "1.9.1",
+      "Version": "1.9.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5d8225445acb167abf7797de48b2ee3c"
+      "Hash": "14eb0596f987c71535d07c3aff814742"
     },
     "communitytroopsdashboard": {
       "Package": "communitytroopsdashboard",
       "Version": "0.0.0.9000",
-      "Source": "unknown",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "communitytroopsdashboard",
+      "RemoteUsername": "kgilds",
+      "RemoteSha": "a2ca1bdf8f93148ab32eaa29c0133de47099129c",
       "Requirements": [
         "R",
         "config",
         "golem",
+        "pkgload",
         "shiny",
         "thinkr"
       ],
-      "Hash": "e8fd05b916c1cccd8d16da150ce7a47e"
+      "Hash": "4297c54874cf4e30532b3aac5134ef1e"
     },
     "config": {
       "Package": "config",
@@ -607,7 +613,7 @@
     },
     "credentials": {
       "Package": "credentials",
-      "Version": "2.0.1",
+      "Version": "2.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -617,7 +623,7 @@
         "openssl",
         "sys"
       ],
-      "Hash": "c7844b32098dcbd1c59cbd8dddb4ecc6"
+      "Hash": "09fd631e607a236f8cc7f9604db32cb8"
     },
     "crosstalk": {
       "Package": "crosstalk",
