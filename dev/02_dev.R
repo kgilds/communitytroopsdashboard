@@ -17,17 +17,31 @@
 ## Amend DESCRIPTION with dependencies read from package code parsing
 ## install.packages('attachment') # if needed.
 attachment::att_amend_desc()
+usethis::use_package( "thinkr" )
+usethis::use_package("golem")
+usethis::use_package("bs4Dash")
+usethis::use_package("dplyr")
+usethis::use_package("gt")
+usethis::use_package("shinymanager")
+usethis::use_package("thematic")
+usethis::use_package("plotly")
+usethis::use_package("waiter")
+usethis::use_package("fresh")
+usethis::use_package("bslib")
+usethis::use_package("qualtRics")
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
-golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the module
+golem::add_module(name = "home", with_test = TRUE) # Name of the module
+golem::add_module(name = "grant", with_test = TRUE) # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
-golem::add_fct("helpers", with_test = TRUE)
-golem::add_utils("helpers", with_test = TRUE)
-
+golem::add_fct("reporting")
+golem::add_utils( "helpers" )
+golem::add_utils("theme")
+golem::add_fct("questions")
+golem::add_fct("sites")
 ## External resources
 ## Creates .js and .css files at inst/app/www
 golem::add_js_file("script")
