@@ -1,0 +1,12 @@
+name: communitytroopsdashboard
+title: communitytroopsdashboard
+username: tidydatabykwg57
+account: tidydatabykwg57
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12930292
+bundleId:
+url: https://tidydatabykwg57.shinyapps.io/communitytroopsdashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

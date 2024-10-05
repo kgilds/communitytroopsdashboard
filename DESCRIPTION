@@ -8,6 +8,7 @@ License: What license is it under?
 Imports: 
     config,
     golem,
+    pkgload,
     shiny,
     thinkr
 Encoding: UTF-8
