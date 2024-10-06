@@ -524,7 +524,7 @@
       "RemoteHost": "api.github.com",
       "RemoteRepo": "communitytroopsdashboard",
       "RemoteUsername": "kgilds",
-      "RemoteSha": "a2ca1bdf8f93148ab32eaa29c0133de47099129c",
+      "RemoteSha": "d2124a42ef08b03a5e84ceb989d533ab5838e415",
       "Requirements": [
         "R",
         "config",
@@ -533,7 +533,7 @@
         "shiny",
         "thinkr"
       ],
-      "Hash": "4297c54874cf4e30532b3aac5134ef1e"
+      "Hash": "7e1b2c53f8dafd5042b0ccdc0c5d5c5e"
     },
     "config": {
       "Package": "config",
@@ -1094,46 +1094,8 @@
         "yaml"
       ],
       "Hash": "11be24963e2f220c403eafd01e2259d5"
-    },
-    "gswcf": {
-      "Package": "gswcf",
-      "Version": "4.0.2",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "gswcf",
-      "RemoteUsername": "kgilds",
-      "RemoteSha": "7ae55de506870183e9e27acc365758add0149138",
-      "Requirements": [
-        "DT",
-        "R",
-        "assertthat",
-        "attempt",
-        "bs4Dash",
-        "config",
-        "dplyr",
-        "forcats",
-        "ggplot2",
-        "glue",
-        "golem",
-        "gt",
-        "htmltools",
-        "janitor",
-        "pkgload",
-        "plotly",
-        "pointblank",
-        "rlang",
-        "rmarkdown",
-        "scales",
-        "shiny",
-        "shinyWidgets",
-        "shinyhelper",
-        "shinylogs",
-        "skimr",
-        "tidyr",
-        "waiter"
-      ],
-      "Hash": "976c2e2a74dfde9e5a4db56323b3f0d6"
+
+
     },
     "gt": {
       "Package": "gt",
